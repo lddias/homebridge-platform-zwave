@@ -54,7 +54,7 @@ class Platform {
 
   onControllerFailed(e) {
     this.controller && this.controller.disconnect();
-    this.log.error('Failed to setup Z-Wave network constroller', e);
+    this.log.error('Failed to setup Z-Wave network constroller HI', e);
   }
 
   onControllerReady(homeid) {
